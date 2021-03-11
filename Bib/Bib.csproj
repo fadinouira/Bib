@@ -36,6 +36,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DAOService">
+      <HintPath>..\..\DAOService\DAOService\bin\Debug\netstandard2.0\DAOService.dll</HintPath>
+    </Reference>
+    <Reference Include="IService">
+      <HintPath>..\..\DAOService\DAOService\bin\Debug\netstandard2.0\IService.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
